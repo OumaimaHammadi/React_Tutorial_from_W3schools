@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Hellooooooooooooooooooooooooooooo</h1>
+
+    <ul id="demo"> Salut </ul>
+
+<script>
+const vehicleOne = {
+  brand: 'Ford',
+  model: 'Mustang',
+  type: 'car',
+  year: 2021, 
+  color: 'red',
+  registration: {
+    city: 'Houston',
+    state: 'Texas',
+    country: 'USA'
+  }
+}
+
+myVehicle(vehicleOne)
+
+function myVehicle({ model, registration: { state } }) {
+  const message = 'My ' + model + ' is registered in ' + state + '.';
+
+
+  document.getElementById("demo").innerHTML = message
+
+}
+
+
+console.log(map1);
+
+</script>
+
+
+</body>
+
+
+</html>
+
+
+
